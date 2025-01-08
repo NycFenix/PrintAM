@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.001305] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003046] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.081389] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.083625] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/lntsold/PrintAM/src/my_package', '-DCMAKE_INSTALL_PREFIX=/home/lntsold/PrintAM/install/my_package'], 'cwd': '/home/lntsold/PrintAM/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lntsold', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lntsold', 'OLDPWD': '/home/lntsold/PrintAM/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2512', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lntsold', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lntsold', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kratos:@/tmp/.ICE-unix/2481,unix/kratos:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14e03277_9b57_4e32_88ee_f8380df0c942', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.IDI3Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '17', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lntsold/PrintAM/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100988] (-) TimerEvent: {}
+[0.203384] (-) TimerEvent: {}
+[0.305362] (-) TimerEvent: {}
+[0.406874] (-) TimerEvent: {}
+[0.508430] (-) TimerEvent: {}
+[0.609832] (-) TimerEvent: {}
+[0.710875] (-) TimerEvent: {}
+[0.812096] (-) TimerEvent: {}
+[0.915069] (-) TimerEvent: {}
+[1.016583] (-) TimerEvent: {}
+[1.120239] (-) TimerEvent: {}
+[1.223369] (-) TimerEvent: {}
+[1.324502] (-) TimerEvent: {}
+[1.427881] (-) TimerEvent: {}
+[1.505669] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[1.528151] (-) TimerEvent: {}
+[1.629465] (-) TimerEvent: {}
+[1.732439] (-) TimerEvent: {}
+[1.836153] (-) TimerEvent: {}
+[1.939092] (-) TimerEvent: {}
+[2.041402] (-) TimerEvent: {}
+[2.136016] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[2.142913] (-) TimerEvent: {}
+[2.244505] (-) TimerEvent: {}
+[2.346602] (-) TimerEvent: {}
+[2.420401] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.448642] (-) TimerEvent: {}
+[2.558059] (-) TimerEvent: {}
+[2.661867] (-) TimerEvent: {}
+[2.763133] (-) TimerEvent: {}
+[2.864520] (-) TimerEvent: {}
+[2.967173] (-) TimerEvent: {}
+[3.069111] (-) TimerEvent: {}
+[3.173993] (-) TimerEvent: {}
+[3.277089] (-) TimerEvent: {}
+[3.378182] (-) TimerEvent: {}
+[3.403785] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.450857] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.458810] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.461695] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.478404] (-) TimerEvent: {}
+[3.544548] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.578870] (-) TimerEvent: {}
+[3.680601] (-) TimerEvent: {}
+[3.783320] (-) TimerEvent: {}
+[3.885935] (-) TimerEvent: {}
+[3.991202] (-) TimerEvent: {}
+[4.092908] (-) TimerEvent: {}
+[4.195087] (-) TimerEvent: {}
+[4.297713] (-) TimerEvent: {}
+[4.400930] (-) TimerEvent: {}
+[4.504974] (-) TimerEvent: {}
+[4.575931] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.604977] (-) TimerEvent: {}
+[4.625511] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.626883] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.630121] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.693601] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.705250] (-) TimerEvent: {}
+[4.808022] (-) TimerEvent: {}
+[4.916298] (-) TimerEvent: {}
+[5.022101] (-) TimerEvent: {}
+[5.127161] (-) TimerEvent: {}
+[5.228288] (-) TimerEvent: {}
+[5.339156] (-) TimerEvent: {}
+[5.443583] (-) TimerEvent: {}
+[5.552291] (-) TimerEvent: {}
+[5.659101] (-) TimerEvent: {}
+[5.766859] (-) TimerEvent: {}
+[5.873910] (-) TimerEvent: {}
+[5.975642] (-) TimerEvent: {}
+[6.076720] (-) TimerEvent: {}
+[6.177577] (-) TimerEvent: {}
+[6.280750] (-) TimerEvent: {}
+[6.382163] (-) TimerEvent: {}
+[6.485714] (-) TimerEvent: {}
+[6.590569] (-) TimerEvent: {}
+[6.660564] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.690946] (-) TimerEvent: {}
+[6.792165] (-) TimerEvent: {}
+[6.894078] (-) TimerEvent: {}
+[6.997906] (-) TimerEvent: {}
+[7.106058] (-) TimerEvent: {}
+[7.212096] (-) TimerEvent: {}
+[7.313350] (-) TimerEvent: {}
+[7.415057] (-) TimerEvent: {}
+[7.518124] (-) TimerEvent: {}
+[7.621009] (-) TimerEvent: {}
+[7.723884] (-) TimerEvent: {}
+[7.827687] (-) TimerEvent: {}
+[7.930877] (-) TimerEvent: {}
+[8.033044] (-) TimerEvent: {}
+[8.139081] (-) TimerEvent: {}
+[8.240075] (-) TimerEvent: {}
+[8.301255] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.340354] (-) TimerEvent: {}
+[8.448952] (-) TimerEvent: {}
+[8.550536] (-) TimerEvent: {}
+[8.653044] (-) TimerEvent: {}
+[8.757672] (-) TimerEvent: {}
+[8.861308] (-) TimerEvent: {}
+[8.965007] (-) TimerEvent: {}
+[9.066417] (-) TimerEvent: {}
+[9.172045] (-) TimerEvent: {}
+[9.282414] (-) TimerEvent: {}
+[9.383613] (-) TimerEvent: {}
+[9.485844] (-) TimerEvent: {}
+[9.586937] (-) TimerEvent: {}
+[9.640801] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.641754] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lntsold/PrintAM/src/my_package/include>\n'}
+[9.642267] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.657060] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.673598] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.675484] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.687456] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.691147] (-) TimerEvent: {}
+[9.714642] (my_package) StdoutLine: {'line': b'-- Configuring done (9.2s)\n'}
+[9.765063] (my_package) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.777048] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/lntsold/PrintAM/build/my_package\n'}
+[9.793265] (-) TimerEvent: {}
+[9.813658] (my_package) CommandEnded: {'returncode': 0}
+[9.816191] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[9.825984] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lntsold/PrintAM/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/lntsold/PrintAM/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lntsold', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lntsold', 'OLDPWD': '/home/lntsold/PrintAM/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2512', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lntsold', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lntsold', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kratos:@/tmp/.ICE-unix/2481,unix/kratos:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14e03277_9b57_4e32_88ee_f8380df0c942', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.IDI3Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '17', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lntsold/PrintAM/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.894425] (-) TimerEvent: {}
+[9.999982] (-) TimerEvent: {}
+[10.109422] (-) TimerEvent: {}
+[10.213289] (-) TimerEvent: {}
+[10.315502] (-) TimerEvent: {}
+[10.391284] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[10.415662] (-) TimerEvent: {}
+[10.517114] (-) TimerEvent: {}
+[10.619036] (-) TimerEvent: {}
+[10.698407] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[10.719513] (-) TimerEvent: {}
+[10.827030] (-) TimerEvent: {}
+[10.930965] (-) TimerEvent: {}
+[11.037496] (-) TimerEvent: {}
+[11.141755] (-) TimerEvent: {}
+[11.217072] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[11.244116] (-) TimerEvent: {}
+[11.333236] (my_package) CommandEnded: {'returncode': 0}
+[11.339729] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[11.344265] (-) TimerEvent: {}
+[11.416043] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lntsold/PrintAM/build/my_package'], 'cwd': '/home/lntsold/PrintAM/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lntsold', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lntsold', 'OLDPWD': '/home/lntsold/PrintAM/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2512', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lntsold', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lntsold', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kratos:@/tmp/.ICE-unix/2481,unix/kratos:/tmp/.ICE-unix/2481', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14e03277_9b57_4e32_88ee_f8380df0c942', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.IDI3Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '17', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lntsold/PrintAM/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.444698] (-) TimerEvent: {}
+[11.487997] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.489321] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/lib/my_package/my_node\n'}
+[11.493115] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[11.495092] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[11.498539] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[11.502714] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[11.508688] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/environment/path.sh\n'}
+[11.509621] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/environment/path.dsv\n'}
+[11.510248] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/local_setup.bash\n'}
+[11.510664] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/local_setup.sh\n'}
+[11.511466] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/local_setup.zsh\n'}
+[11.512599] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/local_setup.dsv\n'}
+[11.513417] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/package.dsv\n'}
+[11.515174] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[11.516920] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[11.518066] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[11.519959] (my_package) StdoutLine: {'line': b'-- Installing: /home/lntsold/PrintAM/install/my_package/share/my_package/package.xml\n'}
+[11.528640] (my_package) CommandEnded: {'returncode': 0}
+[11.545908] (-) TimerEvent: {}
+[11.646886] (-) TimerEvent: {}
+[11.723015] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[11.730726] (-) EventReactorShutdown: {}

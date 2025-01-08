@@ -1,9 +1,11 @@
+// Esse é o header para a classe de controle de motor de passo. Cada objeto dessa classe controla um dos motores
 
+// PS: Esse header é só um template, pois não sei ainda como seria o controle usando o driver escolhido.
 /**
- * @class MotorControl
+ * @class StepMotor
  * @brief Classe para controlar um motor de passo usando pinos de controle.
  */
-class MotorControl {
+class StepMotor {
 public:
     /**
      * @brief Construtor da classe MotorControl.
@@ -11,7 +13,7 @@ public:
      * @param dirPin Pino para definir a direção do motor.
      * @param enablePin Pino para habilitar ou desabilitar o motor.
      */
-    MotorControl(int stepPin, int dirPin, int enablePin);
+    StepMotor(int stepPin, int dirPin, int enablePin);
 
     /**
      * @brief Habilita o motor.
@@ -25,9 +27,9 @@ public:
 
     /**
      * @brief Define a direção do motor.
-     * @param direction Direção do motor (true para uma direção, false para a outra).
+     * @param direction Direção do motor (0 para uma direção, 1 para a outra).
      */
-    void setDirection(bool direction);
+    void setDirection(int direction);
 
     /**
      * @brief Envia pulsos de passo para o motor.
